@@ -11,8 +11,8 @@ export default function Logo() {
       src={logo?.fixed?.src}
       alt={logo?.title}
       srcSet={logo?.fixed?.srcSet}
-      width={logo?.fixed?.width}
-      height={logo?.fixed?.height}
+      width="auto"
+      height="80"
     />
   );
 }

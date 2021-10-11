@@ -83,17 +83,6 @@ export default function Footer(props) {
               </Anchor>
             ))}
           </LinksNav>
-
-          <Copyright>
-            Powered by{' '}
-            <Anchor
-              href="https://www.contentful.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Contentful
-            </Anchor>
-          </Copyright>
         </LinksContainer>
       </FooterContainer>
     </Wrap>
